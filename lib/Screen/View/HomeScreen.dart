@@ -149,6 +149,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         text: homeController.dataList[index]
                                             ['number']);
                                     Get.defaultDialog(
+                                      title: "",
                                         content: Column(
                                           mainAxisSize: MainAxisSize.min,
                                           children: [
